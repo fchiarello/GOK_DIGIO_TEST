@@ -1,0 +1,6 @@
+framework module Pods_GOK_DIGIO_TEST_GOK_DIGIO_TESTUITests {
+  umbrella header "Pods-GOK_DIGIO_TEST-GOK_DIGIO_TESTUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
