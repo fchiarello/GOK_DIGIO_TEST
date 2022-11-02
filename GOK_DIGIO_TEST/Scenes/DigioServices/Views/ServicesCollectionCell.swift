@@ -32,13 +32,25 @@ final class ServicesCollectionCell: UICollectionViewCell {
         self.height = height
         self.width = width
         viewCodeSetup()
-        guard let url = URL(string: imageUrl) else { return }
-        do {
-            let path = try Data(contentsOf: url)
-            self.imageView.image = UIImage(data: path)
-        } catch  {
+        guard let url = URL(string: imageUrl) else {
             self.imageView.image = UIImage(named: Constants.errorImage)
+            return
         }
+        
+        URLSession.shared.dataTask(with: url) { (data, response, error) in
+            if error != nil {
+                self.imageView.image = UIImage(named: Constants.errorImage)
+            } else {
+                guard let data = data else {
+                    self.imageView.image = UIImage(named: Constants.errorImage)
+                    return
+                }
+                DispatchQueue.main.async {
+                    let image = UIImage(data: data)
+                    self.imageView.image = image
+                }
+            }
+        }.resume()
     }
 }
 

@@ -1,6 +1,6 @@
 import UIKit
 
-final class DigioServicesCoordinator: AppCoordinator {
+class DigioServicesCoordinator: AppCoordinator {
     private(set) var childCoordinators: [AppCoordinator] = []
     weak var navigationController: UINavigationController?
     private var factory: FactoryProtocol

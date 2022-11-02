@@ -23,6 +23,15 @@
 		9242F163291070D700289099 /* DigioServicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9242F162291070D700289099 /* DigioServicesViewModel.swift */; };
 		9242F1662910740D00289099 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9242F1652910740D00289099 /* Service.swift */; };
 		9242F16929107BDD00289099 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9242F16829107BDD00289099 /* Constants.swift */; };
+		924F2E0D2912181100E1696D /* ServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2E0C2912181100E1696D /* ServiceMock.swift */; };
+		924F2E0F29121CDE00E1696D /* FactoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2E0E29121CDE00E1696D /* FactoryMock.swift */; };
+		924F2E152912258E00E1696D /* DigioServicesCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2E142912258E00E1696D /* DigioServicesCoordinatorTests.swift */; };
+		924F2E172912265E00E1696D /* UINavigationControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2E162912265E00E1696D /* UINavigationControllerMock.swift */; };
+		924F2E1B29122DA800E1696D /* DigioServicesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2E1A29122DA800E1696D /* DigioServicesViewModelTests.swift */; };
+		924F2E1C2912352500E1696D /* mockJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 924F2E1829122A9800E1696D /* mockJson.json */; };
+		924F2E1D2912379100E1696D /* mockJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 924F2E1829122A9800E1696D /* mockJson.json */; };
+		924F2E1F2912385F00E1696D /* DigioServicesViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2E1E2912385F00E1696D /* DigioServicesViewControllerTest.swift */; };
+		924F2E21291238CF00E1696D /* CoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2E20291238CF00E1696D /* CoordinatorMock.swift */; };
 		92987D0929098A24000BA4E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92987D0829098A24000BA4E5 /* AppDelegate.swift */; };
 		92987D0B29098A24000BA4E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92987D0A29098A24000BA4E5 /* SceneDelegate.swift */; };
 		92987D0D29098A24000BA4E5 /* DigioServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92987D0C29098A24000BA4E5 /* DigioServicesViewController.swift */; };
@@ -78,6 +87,14 @@
 		9242F162291070D700289099 /* DigioServicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioServicesViewModel.swift; sourceTree = "<group>"; };
 		9242F1652910740D00289099 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		9242F16829107BDD00289099 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		924F2E0C2912181100E1696D /* ServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMock.swift; sourceTree = "<group>"; };
+		924F2E0E29121CDE00E1696D /* FactoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMock.swift; sourceTree = "<group>"; };
+		924F2E142912258E00E1696D /* DigioServicesCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioServicesCoordinatorTests.swift; sourceTree = "<group>"; };
+		924F2E162912265E00E1696D /* UINavigationControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerMock.swift; sourceTree = "<group>"; };
+		924F2E1829122A9800E1696D /* mockJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = mockJson.json; path = ../../../../Desktop/mockJson.json; sourceTree = "<group>"; };
+		924F2E1A29122DA800E1696D /* DigioServicesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioServicesViewModelTests.swift; sourceTree = "<group>"; };
+		924F2E1E2912385F00E1696D /* DigioServicesViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioServicesViewControllerTest.swift; sourceTree = "<group>"; };
+		924F2E20291238CF00E1696D /* CoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorMock.swift; sourceTree = "<group>"; };
 		92987D0529098A24000BA4E5 /* GOK_DIGIO_TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOK_DIGIO_TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92987D0829098A24000BA4E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92987D0A29098A24000BA4E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -211,6 +228,18 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		924F2E0B291217B600E1696D /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				924F2E1829122A9800E1696D /* mockJson.json */,
+				924F2E0C2912181100E1696D /* ServiceMock.swift */,
+				924F2E0E29121CDE00E1696D /* FactoryMock.swift */,
+				924F2E162912265E00E1696D /* UINavigationControllerMock.swift */,
+				924F2E20291238CF00E1696D /* CoordinatorMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		92987CFC29098A23000BA4E5 = {
 			isa = PBXGroup;
 			children = (
@@ -255,7 +284,11 @@
 		92987D1E29098A32000BA4E5 /* GOK_DIGIO_TESTTests */ = {
 			isa = PBXGroup;
 			children = (
+				924F2E0B291217B600E1696D /* Mocks */,
 				92987D1F29098A32000BA4E5 /* GOK_DIGIO_TESTTests.swift */,
+				924F2E142912258E00E1696D /* DigioServicesCoordinatorTests.swift */,
+				924F2E1A29122DA800E1696D /* DigioServicesViewModelTests.swift */,
+				924F2E1E2912385F00E1696D /* DigioServicesViewControllerTest.swift */,
 			);
 			path = GOK_DIGIO_TESTTests;
 			sourceTree = "<group>";
@@ -448,6 +481,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92987D1529098A31000BA4E5 /* LaunchScreen.storyboard in Resources */,
+				924F2E1D2912379100E1696D /* mockJson.json in Resources */,
 				92987D1229098A31000BA4E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +490,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				924F2E1C2912352500E1696D /* mockJson.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +626,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				92987D2029098A32000BA4E5 /* GOK_DIGIO_TESTTests.swift in Sources */,
+				924F2E0F29121CDE00E1696D /* FactoryMock.swift in Sources */,
+				924F2E172912265E00E1696D /* UINavigationControllerMock.swift in Sources */,
+				924F2E1B29122DA800E1696D /* DigioServicesViewModelTests.swift in Sources */,
+				924F2E152912258E00E1696D /* DigioServicesCoordinatorTests.swift in Sources */,
+				924F2E0D2912181100E1696D /* ServiceMock.swift in Sources */,
+				924F2E21291238CF00E1696D /* CoordinatorMock.swift in Sources */,
+				924F2E1F2912385F00E1696D /* DigioServicesViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -38,6 +38,7 @@ class DigioServicesViewController: UIViewController {
         super.viewDidLoad()
         viewModel.delegate = self
         viewModel.loadServices()
+        viewModel.setupNavBar(navigationItem: self.navigationItem)
         view.backgroundColor = .white
     }
     
@@ -92,10 +93,11 @@ extension DigioServicesViewController: ViewCodeProtocol {
 
 extension DigioServicesViewController: DigioServicesViewModelDelegate {
     func successList() {
+        let image = self.viewModel.setupCashImage() ?? UIImage()
         DispatchQueue.main.async {
             self.viewCodeSetup()
             self.cashView.setupView(title: self.viewModel.setupCashLabel(),
-                               image: self.viewModel.setupCashImage() ?? UIImage())
+                                    image: image)
             self.productsCollection.model = self.viewModel.products
             self.spotlightCollection.model = self.viewModel.spotlights
         }

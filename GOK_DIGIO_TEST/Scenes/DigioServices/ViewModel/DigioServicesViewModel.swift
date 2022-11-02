@@ -62,4 +62,12 @@ final class DigioServicesViewModel {
             return UIImage(named: Constants.errorImage)
         }
     }
+    
+    func setupNavBar(navigationItem: UINavigationItem) {
+        let logo = UIImage(named: Constants.digioLogo)
+        let logoView = UIImageView(image: logo)
+        
+        logoView.contentMode = .scaleAspectFit
+        navigationItem.titleView = logoView
+    }
 }
