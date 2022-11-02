@@ -2,7 +2,6 @@ import Foundation
 
 enum ErrorType {
     case urlError
-    case responseError
     case jsonError
     case statusCodeError(code: Int)
     case taskError(error: Error)
