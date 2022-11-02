@@ -14,7 +14,7 @@ class DigioServicesViewController: UIViewController {
         return collectionView
     }()
     
-    private var productsCollection: ProductCollectionView = {
+    private lazy var productsCollection: ProductCollectionView = {
         let collectionView = ProductCollectionView()
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         return collectionView

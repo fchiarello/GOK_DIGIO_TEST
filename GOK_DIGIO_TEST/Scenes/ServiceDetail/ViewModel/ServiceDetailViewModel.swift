@@ -8,7 +8,7 @@ protocol ServiceDetailViewModelDelegate: AnyObject {
 }
 
 final class ServiceDetailViewModel {
-    private var model: ServiceDetailModel?
+    var model: ServiceDetailModel?
     
     weak var delegate: ServiceDetailViewModelDelegate?
     
