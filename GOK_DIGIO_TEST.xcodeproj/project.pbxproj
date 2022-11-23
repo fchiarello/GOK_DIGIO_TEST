@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		038C12A3BB9799A657AD68EA /* Pods_GOK_DIGIO_TESTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B789288E887E27AC7AD508 /* Pods_GOK_DIGIO_TESTTests.framework */; };
 		602859F3CD733F0F8D4451E6 /* Pods_GOK_DIGIO_TEST_GOK_DIGIO_TESTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D86FC6C5DB48E3000FB70CC /* Pods_GOK_DIGIO_TEST_GOK_DIGIO_TESTUITests.framework */; };
+		923D192D292EBD8800A4F0BF /* mockJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 923D192C292EBD8700A4F0BF /* mockJson.json */; };
 		9242F146290ABBA000289099 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9242F145290ABBA000289099 /* Coordinator.swift */; };
 		9242F148290AC84400289099 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9242F147290AC84400289099 /* AppCoordinator.swift */; };
 		9242F14B290B1C7400289099 /* DigioServicesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9242F14A290B1C7400289099 /* DigioServicesCoordinator.swift */; };
@@ -28,8 +29,6 @@
 		924F2E152912258E00E1696D /* DigioServicesCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2E142912258E00E1696D /* DigioServicesCoordinatorTests.swift */; };
 		924F2E172912265E00E1696D /* UINavigationControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2E162912265E00E1696D /* UINavigationControllerMock.swift */; };
 		924F2E1B29122DA800E1696D /* DigioServicesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2E1A29122DA800E1696D /* DigioServicesViewModelTests.swift */; };
-		924F2E1C2912352500E1696D /* mockJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 924F2E1829122A9800E1696D /* mockJson.json */; };
-		924F2E1D2912379100E1696D /* mockJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 924F2E1829122A9800E1696D /* mockJson.json */; };
 		924F2E1F2912385F00E1696D /* DigioServicesViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2E1E2912385F00E1696D /* DigioServicesViewControllerTest.swift */; };
 		924F2E21291238CF00E1696D /* CoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2E20291238CF00E1696D /* CoordinatorMock.swift */; };
 		924F2E232912EA7900E1696D /* DigioServicesViewSnapshotTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924F2E222912EA7900E1696D /* DigioServicesViewSnapshotTesting.swift */; };
@@ -77,6 +76,7 @@
 		55D1A3C839B580E2B7E06574 /* Pods-GOK_DIGIO_TESTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOK_DIGIO_TESTTests.debug.xcconfig"; path = "Target Support Files/Pods-GOK_DIGIO_TESTTests/Pods-GOK_DIGIO_TESTTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74CBF13F21CABBE5CF7B3E0B /* Pods-GOK_DIGIO_TEST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOK_DIGIO_TEST.debug.xcconfig"; path = "Target Support Files/Pods-GOK_DIGIO_TEST/Pods-GOK_DIGIO_TEST.debug.xcconfig"; sourceTree = "<group>"; };
 		78F6583881A05E9D5BE2B8AC /* Pods_GOK_DIGIO_TEST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GOK_DIGIO_TEST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		923D192C292EBD8700A4F0BF /* mockJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockJson.json; sourceTree = "<group>"; };
 		9242F145290ABBA000289099 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		9242F147290AC84400289099 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		9242F14A290B1C7400289099 /* DigioServicesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioServicesCoordinator.swift; sourceTree = "<group>"; };
@@ -95,7 +95,6 @@
 		924F2E0E29121CDE00E1696D /* FactoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMock.swift; sourceTree = "<group>"; };
 		924F2E142912258E00E1696D /* DigioServicesCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioServicesCoordinatorTests.swift; sourceTree = "<group>"; };
 		924F2E162912265E00E1696D /* UINavigationControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerMock.swift; sourceTree = "<group>"; };
-		924F2E1829122A9800E1696D /* mockJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = mockJson.json; path = ../../../../Desktop/mockJson.json; sourceTree = "<group>"; };
 		924F2E1A29122DA800E1696D /* DigioServicesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioServicesViewModelTests.swift; sourceTree = "<group>"; };
 		924F2E1E2912385F00E1696D /* DigioServicesViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioServicesViewControllerTest.swift; sourceTree = "<group>"; };
 		924F2E20291238CF00E1696D /* CoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorMock.swift; sourceTree = "<group>"; };
@@ -239,7 +238,7 @@
 		924F2E0B291217B600E1696D /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
-				924F2E1829122A9800E1696D /* mockJson.json */,
+				923D192C292EBD8700A4F0BF /* mockJson.json */,
 				924F2E0C2912181100E1696D /* ServiceMock.swift */,
 				924F2E0E29121CDE00E1696D /* FactoryMock.swift */,
 				924F2E162912265E00E1696D /* UINavigationControllerMock.swift */,
@@ -509,7 +508,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				92987D1529098A31000BA4E5 /* LaunchScreen.storyboard in Resources */,
-				924F2E1D2912379100E1696D /* mockJson.json in Resources */,
 				92987D1229098A31000BA4E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,7 +516,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				924F2E1C2912352500E1696D /* mockJson.json in Resources */,
+				923D192D292EBD8800A4F0BF /* mockJson.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
